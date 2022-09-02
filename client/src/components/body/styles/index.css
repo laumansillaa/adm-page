@@ -1,0 +1,40 @@
+.body-container{
+    background: #fff;
+    color: #333333;
+}
+
+.body-section{
+    width: 30%;
+}
+
+.body-cont-two{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 5rem;
+    margin-top: 2rem;
+}
+
+.body-cont-three{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2rem;
+    padding-bottom: 5rem;
+}
+
+.body-cont-image{
+    width: 50%;
+    height: 100%;
+}
+
+.body-cont-description{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+}

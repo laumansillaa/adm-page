@@ -1,0 +1,32 @@
+@media (max-width: 390px){
+    .cont-team-profile{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+
+@media (max-width: 414px){
+    .team-title{
+        flex-direction: column;
+    }
+
+    .cont-team-profile{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 5rem 3rem 4rem 3rem;
+    }
+
+    .team-profile{
+        width: 100%;
+        height: 100%;
+        margin-bottom: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .imgProfile{
+        height: 8rem;
+    }
+}

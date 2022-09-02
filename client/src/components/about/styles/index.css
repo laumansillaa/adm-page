@@ -1,0 +1,14 @@
+/* .about{
+    background-image: url('../../../assets/assetsOffice.png');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+} */
+
+.aboutHeader{
+    background-image: url('../../../assets/office2.jpg');
+    background-position: center center;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    /* backdrop-filter: blur(8px); */
+}

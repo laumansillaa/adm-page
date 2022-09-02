@@ -1,0 +1,24 @@
+@media (max-width: 390px){
+
+}
+
+
+@media (max-width: 414px){
+
+    .cont-footer{
+        border-radius: 100px 100px 0 0;
+    }
+
+    .cont-footer-one{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 2.5rem;
+    }
+
+    .cont-footer-info{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+}
