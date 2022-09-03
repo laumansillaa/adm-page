@@ -31,10 +31,7 @@ const Body = () => {
             <Box 
                 className='body-cont-two'
             >
-                <Box sx={{
-                    width: '30%'
-                }}
-                className='body-section'
+                <Box className='body-section'
                 >
                     <img src={search} alt='search' style={{height: '12rem'}} />
                     <Typography sx={{
@@ -57,10 +54,7 @@ const Body = () => {
                 }}>
                     <ArrowCircleRightIcon sx={{fontSize: '4rem', color: '#3672b5'}} />
                 </Box>
-                <Box sx={{
-                    width: '30%'
-                }}
-                className='body-section'
+                <Box className='body-section'
                 >
                     <img src={finance} alt='finance' style={{height: '12rem'}} />
                     <Typography sx={{
@@ -80,10 +74,7 @@ const Body = () => {
                 }}>
                     <ArrowCircleRightIcon sx={{fontSize: '4rem', color: '#3672b5'}} />
                 </Box>
-                <Box sx={{
-                    width: '30%'
-                }}
-                className='body-section'
+                <Box className='body-section'
                 >
                     <img src={house} alt='house' style={{height: '12rem'}} />
                     <Typography sx={{

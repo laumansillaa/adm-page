@@ -1,14 +1,32 @@
-/* .about{
-    background-image: url('../../../assets/assetsOffice.png');
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
-} */
-
 .aboutHeader{
     background-image: url('../../../assets/office2.jpg');
     background-position: center center;
-    /* background-attachment: fixed; */
     background-size: cover;
-    /* backdrop-filter: blur(8px); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 30%;
+}
+
+.about{
+    height: 100%;
+    background: #fff;
+    color: #333333;
+}
+
+.about-cont-text{
+    display: flex;
+    justify-content: center;
+    height: 70%;
+    margin-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.about-text{
+    width: 50%;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
