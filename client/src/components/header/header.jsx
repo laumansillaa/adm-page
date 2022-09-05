@@ -59,7 +59,7 @@ const Header = () => {
                     justifyContent: 'center',
                     alignItems: 'center'
                 }}>
-                    <Link to='/c' className='link'>Servicios</Link>
+                    <Link to='/services' className='link'>Servicios</Link>
                 </Box>
                 <Box sx={{
                     width: '20%',
