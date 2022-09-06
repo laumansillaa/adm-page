@@ -1,0 +1,43 @@
+.cont-loans{
+    display: flex;
+}
+
+.loans-section-one{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 4rem 0 4rem;
+}
+
+.loans-section-two{
+    width: 50%;
+}
+
+.loans-text{
+    margin-top: 2rem;
+}
+
+.loans-image{
+    width: 35rem;
+    height: 45rem;
+}
+
+.loans-collage{
+    width: 47rem;
+    height: 37rem;
+}
+
+.cont-loans-two{
+    display: flex;
+    padding-bottom: 6rem;
+}
+
+.loans-text-section-two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 3rem 0 3rem;
+}
