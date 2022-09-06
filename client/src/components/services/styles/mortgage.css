@@ -1,0 +1,47 @@
+.cont-mortgage{
+    display: flex;
+    flex-direction: column;
+}
+
+.cont-section-one{
+    display: flex;
+}
+
+.cont-title-section-one{
+    background: #3672b5;
+    width: 100%;
+}
+
+.cont-info-section-one{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 75%;
+}
+
+.cont-image-section-one{
+    width: 50%;
+    height: 50%;
+}
+
+.cont-section-two{
+    display: flex;
+    justify-content: center;
+}
+
+.cont-sections{
+    width: 50%;
+}
+
+.cont-title-info{
+    background: #3672b5;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.cont-box-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: .5rem;
+}

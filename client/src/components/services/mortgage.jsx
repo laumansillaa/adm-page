@@ -4,25 +4,18 @@ import AccountBalanceIcon from '@mui/icons-material/AccountBalance';
 import HouseIcon from '@mui/icons-material/House';
 import QueryStatsIcon from '@mui/icons-material/QueryStats';
 import ConstructionIcon from '@mui/icons-material/Construction';
+import './styles/mortgage.css'
 
 
 const Mortgage = () => {
 
     return (
-        <Box sx={{
-            display: 'flex',
-            flexDirection: 'column'
-        }}>
-            <Box sx={{
-                display:'flex'
-            }}>
+        <Box className='cont-mortgage'>
+            <Box className='cont-section-one'>
                 <Box sx={{
                     width: '50%'
                 }}>
-                    <Box sx={{
-                        background: '#3672b5',
-                        width: '100%'
-                    }}>
+                    <Box className='cont-title-section-one'>
                         <Typography sx={{
                             fontFamily: 'Poppins',
                             fontSize: '2.5rem',
@@ -30,13 +23,7 @@ const Mortgage = () => {
                             padding: '1rem'
                         }}>¿Necesitas una hipoteca?</Typography>
                     </Box>
-                    <Box sx={{
-                        display: 'flex',
-                        flexDirection: 'column',
-                        justifyContent: 'space-evenly',
-                        height: '75%'
-
-                    }}>
+                    <Box className='cont-info-section-one'>
                         <Typography sx={{
                             fontFamily: 'Poppins',
                             fontSize: '2rem'
@@ -55,63 +42,86 @@ const Mortgage = () => {
                         }}>• Hipotecas cambio de casa</Typography>
                     </Box>
                 </Box>
-                <Box sx={{
-                    width: '50%',
-                    height: '50%'
-                }} >
+                <Box className='cont-image-section-one'>
                     <img src={mortgage} alt='mortgage' style={{width: 'auto', height: '27rem'}}/>
                 </Box>
             </Box>
 
-            <Box sx={{
-                display: 'flex',
-                justifyContent: 'center'
-            }}>
-                <Box sx={{
-                    width: '50%'
-                }}>
-                    <Box sx={{
-                        background: '#3672b5',
-                        color: '#fff'
-                    }}>
+            <Box className='cont-section-two'>
+                <Box className='cont-sections'>
+                    <Box className='cont-title-info'>
                         <Typography sx={{
                             fontFamily: 'Poppins',
                             fontSize: '2rem'
-                        }}>Con aportacion economica</Typography>
-                    </Box>
-                    <Box>
-                        
-                    </Box>
-                </Box>
-                <Box sx={{
-                    width: '50%',
-                    borderLeft: '1px solid #333333'
-                }}>
-                    <Box sx={{
-                        background: '#3672b5',
-                        color: '#fff'
-                    }}>
-                        <Typography sx={{
-                            fontFamily: 'Poppins',
-                            fontSize: '2rem',
                         }}>Sin aportacion economica</Typography>
                     </Box>
                     <Box>
-                        <Box>
-                            <AccountBalanceIcon/>
-                            <Typography>Las mejores condiciones del mercado</Typography>
+                        <Box className='cont-box-info'>
+                            <AccountBalanceIcon sx={{mr: '.5rem'}}/>
+                            <Typography sx={{
+                            fontFamily: 'Poppins',
+                            fontSize: '1.3rem',
+                            }}>Financiación al 100% de compra más los gastos</Typography>
                         </Box>
-                        <Box>
-                            <HouseIcon/>
-                            <Typography>Hipotecas para viviendas</Typography>
+                        <Box className='cont-box-info'>
+                            <HouseIcon sx={{mr: '.5rem'}}/>
+                            <Typography sx={{
+                            fontFamily: 'Poppins',
+                            fontSize: '1.2rem',
+                            }}>Financiación al 100% más los gastos con garantía hipotecaria</Typography>
                         </Box>
-                        <Box>
-                            <QueryStatsIcon/>
-                            <Typography>Hipotecas para terrenos urbanos</Typography>
+                        <Box className='cont-box-info'>
+                            <QueryStatsIcon sx={{mr: '.5rem'}}/>
+                            <Typography sx={{
+                            fontFamily: 'Poppins',
+                            fontSize: '1.3rem',
+                            }}>Financiación al 100% más los gastos bancarios con aval</Typography>
                         </Box>
-                        <Box>
-                            <ConstructionIcon/>
-                            <Typography>Hipotecas para locales comerciales</Typography>
+                        <Box className='cont-box-info'>
+                            <ConstructionIcon sx={{mr: '.5rem'}}/>
+                            <Typography sx={{
+                            fontFamily: 'Poppins',
+                            fontSize: '1.3rem',
+                            }}>Financiación al 100% más los gastos sin aval hipotecario</Typography>
+                        </Box>
+                    </Box>
+                </Box>
+                <Box className='cont-sections'>
+                    <Box className='cont-title-info'>
+                        <Typography sx={{
+                            fontFamily: 'Poppins',
+                            fontSize: '2rem',
+                            mb: '1rem'
+                        }}>Con aportacion economica</Typography>
+                    </Box>
+                    <Box>
+                        <Box className='cont-box-info'>
+                            <AccountBalanceIcon sx={{mr: '.5rem'}}/>
+                            <Typography sx={{
+                                fontFamily: 'Poppins',
+                                fontSize: '1.3rem'
+                            }}>Las mejores condiciones del mercado</Typography>
+                        </Box>
+                        <Box className='cont-box-info'>
+                            <HouseIcon sx={{mr: '.5rem'}}/>
+                            <Typography sx={{
+                                fontFamily: 'Poppins',
+                                fontSize: '1.3rem'
+                            }}>Hipotecas para viviendas</Typography>
+                        </Box>
+                        <Box className='cont-box-info'>
+                            <QueryStatsIcon sx={{mr: '.5rem'}}/>
+                            <Typography sx={{
+                                fontFamily: 'Poppins',
+                                fontSize: '1.3rem'
+                            }}>Hipotecas para terrenos urbanos</Typography>
+                        </Box>
+                        <Box className='cont-box-info'>
+                            <ConstructionIcon sx={{mr: '.5rem'}}/>
+                            <Typography sx={{
+                                fontFamily: 'Poppins',
+                                fontSize: '1.3rem'
+                            }}>Hipotecas para locales comerciales</Typography>
                         </Box>
                     </Box>
                 </Box>

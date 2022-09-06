@@ -1,5 +1,6 @@
 import {Box, Typography} from '@mui/material';
 import Mortgage from './mortgage'
+import Finance from './finance'
 import contract from '../../assets/svg/contract.svg';
 import prestamo from '../../assets/svg/prestamo.svg';
 import house3 from '../../assets/svg/house3.svg';
@@ -79,6 +80,7 @@ const Body = () => {
                 </Box>
             </Box>
             <Mortgage/>
+            <Finance/>
         </Box>
     )
 }

@@ -1,0 +1,42 @@
+.cont-finance{
+    margin-top: 2rem;
+}
+
+.cont-title-finance{
+    color: #3672b5;
+}
+
+.cont-info-finance{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.4rem;
+    padding-bottom: 1.4rem;
+}
+
+.box-info-finance{
+    width: 20%;
+    padding: 1rem;
+}
+
+.box-info-finance-b{
+    width: 20%;
+    border-right: 1px solid #333333;
+    padding: 1rem;
+}
+
+.cont-title-two-finance{
+    background: #3672b5;
+    color: #fff;
+    width: 100%;
+    padding: 1rem;
+}
+
+.cont-section-three-finance{
+    display: flex;
+    justify-content: center;
+}
+
+.cont-info-section-three-finance{
+    color: #333333;
+    padding: 1.6rem;
+}
