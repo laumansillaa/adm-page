@@ -12,9 +12,7 @@ const Mortgage = () => {
     return (
         <Box className='cont-mortgage'>
             <Box className='cont-section-one'>
-                <Box sx={{
-                    width: '50%'
-                }}>
+                <Box className='section'>
                     <Box className='cont-title-section-one'>
                         <Typography sx={{
                             fontFamily: 'Poppins',
@@ -43,7 +41,7 @@ const Mortgage = () => {
                     </Box>
                 </Box>
                 <Box className='cont-image-section-one'>
-                    <img src={mortgage} alt='mortgage' style={{width: 'auto', height: '27rem'}}/>
+                    <img src={mortgage} alt='mortgage' className='mortgage-image'/>
                 </Box>
             </Box>
 
@@ -99,28 +97,28 @@ const Mortgage = () => {
                             <AccountBalanceIcon sx={{mr: '.5rem'}}/>
                             <Typography sx={{
                                 fontFamily: 'Poppins',
-                                fontSize: '1.3rem'
+                                fontSize: '1.3.rem'
                             }}>Las mejores condiciones del mercado</Typography>
                         </Box>
                         <Box className='cont-box-info'>
                             <HouseIcon sx={{mr: '.5rem'}}/>
                             <Typography sx={{
                                 fontFamily: 'Poppins',
-                                fontSize: '1.3rem'
+                                fontSize: '1.3.rem'
                             }}>Hipotecas para viviendas</Typography>
                         </Box>
                         <Box className='cont-box-info'>
                             <QueryStatsIcon sx={{mr: '.5rem'}}/>
                             <Typography sx={{
                                 fontFamily: 'Poppins',
-                                fontSize: '1.3rem'
+                                fontSize: '1.3.rem'
                             }}>Hipotecas para terrenos urbanos</Typography>
                         </Box>
                         <Box className='cont-box-info'>
                             <ConstructionIcon sx={{mr: '.5rem'}}/>
                             <Typography sx={{
                                 fontFamily: 'Poppins',
-                                fontSize: '1.3rem'
+                                fontSize: '1.3.rem'
                             }}>Hipotecas para locales comerciales</Typography>
                         </Box>
                     </Box>

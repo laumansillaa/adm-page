@@ -7,19 +7,8 @@ import './styles/index.css';
 const Header = () => {
 
     return (
-        <Box sx={{
-            background: '#3672b5',
-            width: '100%',
-            display: 'flex',
-            flexDirection: 'row',
-            pt: 2,
-            pb: 2
-        }}>
-            <Box 
-                sx={{
-                    width: '30%'
-                }}
-            >   
+        <Box className='cont-header'>
+            <Box className='header-icon'>   
                 <Link to='/'>
                     <img 
                         src={logo} 
@@ -31,14 +20,9 @@ const Header = () => {
                     />
                 </Link>
             </Box>
-            <Box sx={{
-                width: '70%',
-                display: 'flex',
-                flexDirection: 'row',
-                
-            }}>
+            <Box className='header-items'>
                 <Box sx={{
-                    width: '20%',
+                    width: '25%',
                     display: 'flex',
                     justifyContent: 'center',
                     alignItems: 'center',
@@ -46,15 +30,7 @@ const Header = () => {
                     <Link to='/about' className='link'>Quienes somos</Link>
                 </Box>
                 <Box sx={{
-                    width: '20%',
-                    display: 'flex',
-                    justifyContent: 'center',
-                    alignItems: 'center'
-                }}>
-                    <Link to='/b' className='link'>Equipo</Link>
-                </Box>
-                <Box sx={{
-                    width: '20%',
+                    width: '25%',
                     display: 'flex',
                     justifyContent: 'center',
                     alignItems: 'center'
@@ -62,7 +38,7 @@ const Header = () => {
                     <Link to='/services' className='link'>Servicios</Link>
                 </Box>
                 <Box sx={{
-                    width: '20%',
+                    width: '25%',
                     display: 'flex',
                     justifyContent: 'center',
                     alignItems: 'center'
@@ -70,7 +46,7 @@ const Header = () => {
                     <Link to='/d' className='link'>Tú y tu familia</Link>
                 </Box>
                 <Box sx={{
-                    width: '20%',
+                    width: '25%',
                     display: 'flex',
                     justifyContent: 'center',
                     alignItems: 'center'

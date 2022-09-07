@@ -12,15 +12,8 @@ const Services = () => {
             <Box sx={{
                 background: '#fff'
             }}>
-                <Box sx={{
-                    background: '#3672b5',
-                    borderRadius: '0 0 550px 0',
-                    display: 'flex',
-                    justifyContent: 'space-evenly',
-                    alignItems: 'center'
-
-                }}>
-                    <Box>
+                <Box className='cont-services'>
+                    <Box className='services-text'>
                         <Typography sx={{
                             fontFamily: 'Poppins',
                             fontSize: '3rem'

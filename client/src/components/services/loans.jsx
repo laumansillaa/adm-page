@@ -11,7 +11,6 @@ const Loans = () => {
         <Box>
             <Box className='cont-loans'>
                 <Box className='loans-section-one'>
-
                     <Typography sx={{
                         color: '#3672b5',
                         fontFamily: 'Poppins',
@@ -21,11 +20,11 @@ const Loans = () => {
                     <Box className='loans-text'>
                         <Typography sx={{
                             fontFamily: 'Poppins',
-                            fontSize: '1.8rem'
+                            fontSize: '1.6rem'
                         }}>Reforma tu vivienda al 100% y sorprendete a ti mismo</Typography>
                         <Typography sx={{
                             fontFamily: 'Poppins',
-                            fontSize: '1.8rem'
+                            fontSize: '1.6rem'
                         }}>Los mejores prestamos para reformas con unos tipos de interes increibles</Typography>
                     </Box>
                 </Box>
