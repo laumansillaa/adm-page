@@ -1,0 +1,37 @@
+@media (max-width: 390px){
+
+}
+
+
+@media (max-width: 412px){
+
+    .cont-people-info{
+        flex-direction: column;
+    }
+
+
+    .people-section{
+        width: 100%;
+    }
+
+
+
+    .people-image-one{
+        width: 23rem;
+    }
+
+    .cont-people-image-one{
+        width: 100%;
+    }
+
+    .cont-people-info-two{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .people-text-info-two{
+        width: 100%;
+    }
+}

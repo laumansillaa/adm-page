@@ -57,8 +57,13 @@
         padding: 0;
     }
 
+    .loans-text-section-two{
+        padding: 0 2rem 0 2rem;
+    }
+
     .loans-text{
         text-align: center;
+        width: 100%;
     }
 
     .loans-image{
@@ -74,9 +79,7 @@
     .cont-loans-two{
         display: flex;
         flex-direction: column;
+
     }
 
-    .loans-text{
-        padding: 0;
-    }
 }
