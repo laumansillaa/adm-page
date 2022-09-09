@@ -51,7 +51,7 @@ const Header = () => {
                     justifyContent: 'center',
                     alignItems: 'center'
                 }}>
-                    <Link to='/e' className='link'>Contacto</Link>
+                    <Link to='/contact' className='link'>Contacto</Link>
                 </Box>
             </Box>
         </Box>

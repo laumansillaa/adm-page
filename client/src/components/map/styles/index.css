@@ -1,0 +1,10 @@
+.leaflet-container{
+    width: 40vw;
+    height: 40vh;
+}
+
+@media (max-width: 412px){
+    .leaflet-container{
+        width: 80vw;
+    }
+}

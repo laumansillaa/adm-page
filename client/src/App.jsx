@@ -5,6 +5,7 @@ import Footer from './components/footer/footer'
 import About from './components/about/about'
 import Services from './components/services/services';
 import People from './components/people/people'
+import Contact from './components/contact/contact'
 import './App.css'
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Route exact path='/about' element={<About/>}/>
           <Route exact path= '/services' element={<Services/>}/>
           <Route exact path= '/people' element={<People/>}/>
+          <Route exact path= '/contact' element={<Contact/>}/>
         </Routes>
       <Footer/>
     </div>
