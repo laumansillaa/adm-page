@@ -1,0 +1,26 @@
+.cont-motivation{
+    background: #3672b5;
+    height: 100%;
+}
+
+.cont-motivation-border{
+    border-radius: 0 0 0 210px;
+    background: #fff;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.motivation-contain-text{
+    width: 70%;
+    padding: 0 0 6rem 0;
+}
+
+@media (max-width: 412px){
+    .motivation-contain-text{
+        width: 80%;
+        padding: 0 0 6rem 0;
+    }
+}

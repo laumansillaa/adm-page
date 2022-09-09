@@ -9,12 +9,14 @@
         flex-direction: column;
     }
 
-
     .people-section{
         width: 100%;
     }
 
-
+    .people-info{
+        display: flex;
+        flex-direction: column;
+    }
 
     .people-image-one{
         width: 23rem;
@@ -33,5 +35,6 @@
 
     .people-text-info-two{
         width: 100%;
+        padding: 0;
     }
 }

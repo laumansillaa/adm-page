@@ -34,7 +34,6 @@ const About = () => {
                 <Box className='about-text'>
                     <Typography sx={{
                         fontFamily: 'Poppins',
-                        
                     }}
                     
                     className='about-text-responsive'>
