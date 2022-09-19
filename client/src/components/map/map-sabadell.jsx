@@ -1,4 +1,6 @@
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
+import markerIconPng from 'leaflet/dist/images/marker-icon.png';
+import {Icon} from 'leaflet'
 import 'leaflet/dist/leaflet.css';
 import './styles/index.css'
 
@@ -16,7 +18,7 @@ const MapViewSabadell = () => {
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
             />
-            <Marker position={position}>
+            <Marker position={position} icon={new Icon({iconUrl: markerIconPng, iconSize:[25,41], iconAnchor:[12,41]})}>
                 <Popup>
                     ADM Servicios Financieros
                 </Popup>

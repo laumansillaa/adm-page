@@ -1,5 +1,6 @@
 import { Box, Typography } from '@mui/material';
 import './styles/finance.css'
+import './styles/finance-responsive.css'
 
 
 const Finance = () => {

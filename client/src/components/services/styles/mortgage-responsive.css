@@ -1,0 +1,91 @@
+@media (max-width: 1109px){
+    .cont-section-one{
+        height: 100%;
+    }
+
+    .section{
+        height: 100%;
+        width: 100%;
+    }
+
+    .cont-image-section-one{
+        width: 100%;
+    }
+
+    .mortgage-image{
+        height: 22rem;
+    }
+
+    .cont-box-info{
+        padding-left: 1rem;
+        width: 90%;
+    }
+
+
+}
+
+@media (max-width: 1070px){
+    .mortgage-image{
+        height: 21rem;
+    }
+}
+
+@media (max-width: 1030px){
+    .mortgage-image{
+        height: 21rem;
+        width: 30rem;
+    }
+}
+
+@media (max-width: 980px){
+    .mortgage-image{
+        height: 22rem;
+        width: 29rem;
+    }
+}
+
+/* @media (max-width: 950px){
+    .mortgage-image{
+        height: 24rem;
+        width: 28rem;
+    }
+} */
+
+@media (max-width: 900px){
+    .cont-section-one{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .cont-box-info{
+        padding-left: 2rem;
+    }
+
+}
+
+@media (max-width: 650px){
+    .cont-section-two{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .cont-sections{
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px){
+    .mortgage-image{
+        height: 16rem;
+        width: 23rem;
+    }
+}
+
+@media (max-width: 386px){
+    .mortgage-image{
+        height: 14rem;
+        width: 20rem;
+    }
+}

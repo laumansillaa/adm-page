@@ -5,6 +5,7 @@ import MapViewSabadell from '../map/map-sabadell';
 import './styles/index.css';
 import './styles/responsive.css';
 
+
 const Contact = () => {
 
     return (

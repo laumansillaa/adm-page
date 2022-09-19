@@ -9,6 +9,7 @@ import subrogaciones from '../../assets/svg/subrogaciones.svg'
 import deudas from '../../assets/svg/deudas.svg'
 import './styles/index.css';
 import './styles/body.css';
+import './styles/body-responsive.css'
 
 //#212b60
 

@@ -2,6 +2,7 @@ import { Box, Typography } from '@mui/material';
 import building from '../../assets/svg/building.svg';
 import Body from './body';
 import './styles/index.css';
+import './styles/index-responsive.css';
 
 
 const Services = () => {

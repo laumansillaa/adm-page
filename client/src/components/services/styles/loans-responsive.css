@@ -1,0 +1,130 @@
+@media (max-width: 1109px){
+    .loans-image{
+        width: 30rem;
+        height: 33rem;
+    }
+
+    .loans-collage{
+        width: 40rem;
+        height: 32rem;
+    }
+
+    .loans-text{
+        margin-top: 1rem;
+    }
+
+    .loans-text-section-two{
+        padding: 0 1.5rem 0 1.5rem;
+    }
+}
+
+@media (max-width: 975px){
+    .loans-image{
+        width: 26rem;
+        height: 32rem;
+    }
+
+    .loans-section-one{
+        padding: 0 1.5rem 0 1.5rem;
+    }
+
+    .loans-collage{
+        width: 35rem;
+        height: 30rem;
+    }
+
+    .loans-text-section-two{
+        padding: 0 .5rem 0 .5rem;
+    }
+
+}
+
+@media (max-width: 850px){
+    .loans-image{
+        width: 22rem;
+        height: 32rem;
+    }
+
+    .loans-collage{
+        width: 30rem;
+        height: 28rem;
+    }
+
+    .loans-text{
+        margin-top: .5rem;
+    }
+
+    .loans-section-one{
+        padding: 0 .5rem 0 .5rem;
+    }
+
+    .loans-text-section-two{
+        padding: 0 .5rem 0 .5rem;
+    }
+}
+
+@media (max-width: 780px){
+    .cont-loans{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .loans-section-one{
+        width: 98%;
+        padding: 0;
+    }
+
+    .loans-section-two{
+        width: 100%;
+    }
+
+    .loans-text{
+        margin-bottom: 1rem;
+    }
+
+    .loans-image{
+        width: 25rem;
+    }
+
+    .cont-loans-two{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .loans-collage{
+        width: 38rem;
+    }
+
+
+}
+
+@media (max-width: 625px){
+    .loans-collage{
+        width: 32rem;
+        height: 23rem;
+    }
+}
+
+@media (max-width: 530px){
+    .loans-collage{
+        width: 28rem;
+        height: 19rem;
+    }
+}
+
+@media (max-width: 470px){
+
+    .loans-image{
+        width: 20rem;
+        height: 30rem;
+    }
+
+    .loans-collage{
+        width: 23rem;
+        height: 16rem;
+    }
+}

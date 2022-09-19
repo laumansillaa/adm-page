@@ -5,6 +5,7 @@ import Team from '../../components/team/team'
 import Motivation from '../../components/motivation/motivation'
 import './styles/index.css'
 import './styles/responsive.css';
+import './styles/responsive-970.css'
 
 
 const About = () => {

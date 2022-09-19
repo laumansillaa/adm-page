@@ -1,0 +1,36 @@
+@media (max-width: 970px){
+    .cont-title-two-finance{
+        width: 100%;
+    }
+}
+
+@media (max-width: 720px){
+    .cont-title-finance{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .cont-title-two-finance{
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 570px){
+    .cont-info-finance{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+
+    .box-info-finance-b{
+        width: 100%;
+        padding: 0 0 1rem 0;
+        border-bottom: 1px solid black;
+    }
+
+    .box-info-finance{
+        width: 100%;
+        padding: 0;
+    }
+}

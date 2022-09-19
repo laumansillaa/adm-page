@@ -1,0 +1,13 @@
+@media (max-width: 860px){
+    .cont-services{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width: 730px){
+    .cont-services{
+        border-radius: 0 0 250px 0;
+    }
+}

@@ -32,14 +32,12 @@
 
 .cont-imputs{
     width: 80%;
+    height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
-.inputs{
-    margin-bottom: 1rem;
-}
 
 .cont-contact-section-two{
     display: flex;

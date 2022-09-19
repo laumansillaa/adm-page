@@ -2,6 +2,7 @@ import {Box, Typography} from '@mui/material';
 import house from '../../assets/house.jpg';
 import collage from '../../assets/collage.png'
 import './styles/loans.css'
+import './styles/loans-responsive.css'
 
 
 const Loans = () => {
@@ -51,7 +52,7 @@ const Loans = () => {
                             fontFamily: 'Poppins',
                             fontSize: '2rem',
                             color: '#3672b5',
-                            mt: '2rem'
+                            
                         }}>Desde 5.000€ hasta 60.000€</Typography>
                     </Box>
                 </Box>

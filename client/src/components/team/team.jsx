@@ -30,7 +30,6 @@ const Team = () => {
                     <Typography sx={{
                         fontFamily: 'Poppins',
                         fontSize: 18,
-                        pb: 4
                     }} >Asesor y Analista Financiero</Typography>
                 </Box>
                 <Box className='team-profile'>

@@ -5,6 +5,7 @@ import HouseIcon from '@mui/icons-material/House';
 import QueryStatsIcon from '@mui/icons-material/QueryStats';
 import ConstructionIcon from '@mui/icons-material/Construction';
 import './styles/mortgage.css'
+import './styles/mortgage-responsive.css'
 
 
 const Mortgage = () => {
@@ -89,7 +90,6 @@ const Mortgage = () => {
                         <Typography sx={{
                             fontFamily: 'Poppins',
                             fontSize: '2rem',
-                            mb: '1rem'
                         }}>Con aportacion economica</Typography>
                     </Box>
                     <Box>
@@ -97,28 +97,28 @@ const Mortgage = () => {
                             <AccountBalanceIcon sx={{mr: '.5rem'}}/>
                             <Typography sx={{
                                 fontFamily: 'Poppins',
-                                fontSize: '1.3.rem'
+                                fontSize: '1.3rem'
                             }}>Las mejores condiciones del mercado</Typography>
                         </Box>
                         <Box className='cont-box-info'>
                             <HouseIcon sx={{mr: '.5rem'}}/>
                             <Typography sx={{
                                 fontFamily: 'Poppins',
-                                fontSize: '1.3.rem'
+                                fontSize: '1.3rem'
                             }}>Hipotecas para viviendas</Typography>
                         </Box>
                         <Box className='cont-box-info'>
                             <QueryStatsIcon sx={{mr: '.5rem'}}/>
                             <Typography sx={{
                                 fontFamily: 'Poppins',
-                                fontSize: '1.3.rem'
+                                fontSize: '1.3rem'
                             }}>Hipotecas para terrenos urbanos</Typography>
                         </Box>
                         <Box className='cont-box-info'>
                             <ConstructionIcon sx={{mr: '.5rem'}}/>
                             <Typography sx={{
                                 fontFamily: 'Poppins',
-                                fontSize: '1.3.rem'
+                                fontSize: '1.3rem'
                             }}>Hipotecas para locales comerciales</Typography>
                         </Box>
                     </Box>
