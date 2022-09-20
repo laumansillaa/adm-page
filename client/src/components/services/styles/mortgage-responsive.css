@@ -59,7 +59,8 @@
     }
 
     .cont-box-info{
-        padding-left: 2rem;
+        margin-left: 1rem;
+        width: 85%;
     }
 
 }
@@ -81,6 +82,7 @@
         height: 16rem;
         width: 23rem;
     }
+
 }
 
 @media (max-width: 386px){

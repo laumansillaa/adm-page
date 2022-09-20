@@ -25,7 +25,7 @@ const Services = () => {
                         }}>ADM lo hace por ti</Typography>
                     </Box>
                     <Box>
-                        <img src={building} alt='building'/>
+                        <img src={building} alt='building' className='imgServices'/>
                     </Box>
                 </Box>
             </Box>

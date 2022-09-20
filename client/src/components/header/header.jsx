@@ -8,6 +8,11 @@ import './styles/index.css';
 
 const Header = () => {
 
+    const clickChecked = () => {
+        var msg = document.getElementById('menu').click()
+    }
+
+
     return (
         <Box className='header'>
             <Box className='cont-header'>
@@ -34,7 +39,7 @@ const Header = () => {
                         justifyContent: 'center',
                         alignItems: 'center',
                     }}>
-                        <Link to='/about' className='link'>Quienes somos</Link>
+                        <Link to='/about' className='link' onClick={clickChecked}>Quienes somos</Link>
                     </Box>
                     <Box sx={{
                         width: '25%',
@@ -42,7 +47,7 @@ const Header = () => {
                         justifyContent: 'center',
                         alignItems: 'center'
                     }}>
-                        <Link to='/services' className='link'>Servicios</Link>
+                        <Link to='/services' className='link' onClick={clickChecked}>Servicios</Link>
                     </Box>
                     <Box sx={{
                         width: '25%',
@@ -50,7 +55,7 @@ const Header = () => {
                         justifyContent: 'center',
                         alignItems: 'center'
                     }}>
-                        <Link to='/people' className='link'>Tú y tu familia</Link>
+                        <Link to='/people' className='link' onClick={clickChecked}>Tú y tu familia</Link>
                     </Box>
                     <Box sx={{
                         width: '25%',
@@ -58,7 +63,7 @@ const Header = () => {
                         justifyContent: 'center',
                         alignItems: 'center'
                     }}>
-                        <Link to='/contact' className='link'>Contacto</Link>
+                        <Link to='/contact' className='link' onClick={clickChecked}>Contacto</Link>
                     </Box>
                 </Box>
             </Box>
