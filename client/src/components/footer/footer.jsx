@@ -102,9 +102,9 @@ const Footer = () => {
                     <Box>
                         <Typography>&copy; Todos los derechos reservados | ADM SERVICIOS FINANCIEROS</Typography>
                     </Box>
-                    <Box>
+                    {/* <Box>
                         <Typography>Design by Lauchi :p</Typography>
-                    </Box>
+                    </Box> */}
                 </Box>
 
             </Box>
